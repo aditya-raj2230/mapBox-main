@@ -2,7 +2,7 @@ import MapBoxGeocoder from "@mapbox/mapbox-gl-geocoder";
 import { useControl } from "react-map-gl";
 import "@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css";
 export const TOKEN =
-  "PASTE YOUR TOKEN HERE";
+  "pk.eyJ1IjoiYWRpdHlhLXJhajIyMzAiLCJhIjoiY200NGlvYjg2MGl2bTJqc2lrM210ajkwdiJ9.jBgkYSjJz6gOkdg3JFeZfA";
 
 const Geocoder = ({ setNewPlace, mapRef }) => {
   const ctrl = new MapBoxGeocoder({
